@@ -27,6 +27,17 @@ namespace CSharpCallCppDLL
         {
             Console.WriteLine("测试C#调用C++");
 
+            #region 托管 C++dll 库方式
+
+            Function fun = new Function();
+            Console.WriteLine(fun.menberFuncAdd(1, 2));
+            Console.WriteLine(fun.say("Hello World"));
+
+            #endregion
+
+
+            # region 非托管 C++dll 库
+
             myClassInstance = CreateMyClass();
             int nRet = CallAdd(myClassInstance, 1, 2);
             Console.WriteLine($"1 + 2 = {nRet}");
@@ -38,6 +49,8 @@ namespace CSharpCallCppDLL
                 int nRet2 = myInstance.CallAdd(1, 2);
                 Console.WriteLine($"1 + 2 = {nRet2}");
             }
+
+            #endregion
 
             Console.ReadLine();
         }

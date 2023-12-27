@@ -12,16 +12,16 @@
 
 ##### 托管 C++dll 库方式
 
-**1、打开 VS 创建 C++ 项目 "C++_CScharp_DLL"**
+**1、打开 VS2019 创建 C++ 项目 "C++_CScharp_DLL"**
 
-![](https://img-blog.csdnimg.cn/8ebcb30014aa46a589cb4d46a97f0dd8.png)
+![image-20231227155729830](https://gitcode.net/hankangwen/blog-image/raw/master/pictures/2023/12/27_15_57_36_image-20231227155729830.png)
 
 点击确定之后接着点击下一步：
 
 ![](https://img-blog.csdnimg.cn/img_convert/619426585cce1a97cb708758866eaae5.png)
 
 然后选择应用程序和附加选项：  
-![](https://img-blog.csdnimg.cn/b4c8fa21d0a24742bc3d3ecbd1a987a6.png)
+![](https://img-blog.csdnimg.cn/b4c8fa21d0a24742bc3d3ecbd1a987a6.png)![image-20231227155818250](https://gitcode.net/hankangwen/blog-image/raw/master/pictures/2023/12/27_15_58_18_image-20231227155818250.png)
 
 点击完成，C++ 的项目就新建好了。
 
