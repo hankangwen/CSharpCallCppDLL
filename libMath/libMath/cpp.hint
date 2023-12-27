@@ -1,0 +1,2 @@
+#define LIBMATH_API __declspec(dllexport)
+#define LIBMATH_API __declspec(dllimport)
